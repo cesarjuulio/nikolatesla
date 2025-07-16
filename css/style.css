@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-gradiente {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027 0%, #1a303a 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.perfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.titulo-sobreposto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.titulo-tesla {
+    font-family: 'Playfair', serif;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 2px 8px #0007;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.imagem-tesla {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 24px #0006;
+}
+
+.container {
+    max-width: 700px;
+    padding: 40px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.botao-biografia {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background: #0f2027;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 1s;
+    position: relative;
+    overflow: hidden;
+}
+.botao-biografia:hover {
+    background: linear-gradient(135deg, #0f2027 0%, #2f5b70 100%);
+}
