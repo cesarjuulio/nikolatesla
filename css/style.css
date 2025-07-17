@@ -72,6 +72,16 @@ body, html {
     position: relative;
     overflow: hidden;
 }
+
 .botao-biografia:hover {
     background: linear-gradient(135deg, #0f2027 0%, #2f5b70 100%);
+}
+
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+body.fade-in {
+    opacity: 1;
 }

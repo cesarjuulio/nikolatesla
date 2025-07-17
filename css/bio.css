@@ -58,3 +58,12 @@ ul {
 li {
     margin-bottom: 8px;
 }
+
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+body.fade-in {
+    opacity: 1;
+}
