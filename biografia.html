@@ -1,3 +1,5 @@
+<!--Código feito por Júlio César e Murilo Carvalho para a disciplina Física III-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,8 +8,22 @@
     <title>Biografia de Nikola Tesla</title>
     <link rel="shortcut icon" href="https://img.freepik.com/vector-premium/genio-inventor-bombilla-ilustracion-dibujos-animados-nikola-tesla_498048-1888.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/bio.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
+    <nav class="tesla-navbar">
+        <div class="tesla-navbar-content">
+            <a class="tesla-navbar-brand" href="index.html">NIKOLA TESLA</a>
+            <input type="checkbox" id="tesla-menu-toggle"/>
+            <label for="tesla-menu-toggle" class="tesla-menu-icon">&#9776;</label>
+            <ul class="tesla-navbar-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a class="active" href="biografia.html">Biografia</a></li>
+                <li><a href="sobre-nos.html">Sobre Nós</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
         <a href="index.html">&larr; Voltar</a>
         <h1>Biografia de Nikola Tesla</h1>
@@ -48,6 +64,7 @@
             Apesar de suas ideias geniais, Tesla era péssimo com negócios. Morreu pobre, solitário e esquecido em um quarto de hotel em Nova York, aos 86 anos. Apesar de não haver reconhecimento em vida, após sua morte, a unidade de densidade de fluxo magnético, o tesla (T), foi nomeada em sua homenagem. Como também é considerado um dos maiores inventores e visionários da história e inspirou gerações de cientistas, engenheiros e até obras de ficção científica.
         </p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         window.onload = function() {
             document.body.classList.add('fade-in');
